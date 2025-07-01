@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlitos Manluco Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="my-portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="Info">
+        <h1>Carlitos Manluco</h1>
+        <img
+          src="https://i.scdn.co/image/ab6761610000e5eb5829cdbc308df3feba348864"
+          alt="profile pic"
+        />
+        <p>
+          Yo! My name is Carlitos Manluco, I'm a 1st year Computer Science
+          student. Welcome to my personal website!
+        </p>
+
+        <!-- Social Icons -->
+        <div class="icons">
+          <a href="https://www.facebook.com/cjmanluco" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/hippiebor/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://discord.gg/bTc6TEte" target="_blank"
+            ><i class="fab fa-discord"></i
+          ></a>
+          <a href="https://github.com/Borskiee" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:cjmanluco4@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+
+        <!-- Navigation -->
+        <div id="icon-column">
+          <div class="icon-row">
+            <i class="fas fa-user"></i><span><strong>About me</strong></span>
+          </div>
+          <div class="icon-row">
+            <i class="fas fa-laptop-code"></i
+            ><span><strong>Portfolio</strong></span>
+          </div>
+          <div class="icon-row">
+            <i class="fas fa-briefcase"></i
+            ><span><strong>Services & Pricing</strong></span>
+          </div>
+          <div class="icon-row">
+            <i class="fas fa-folder"></i><span><strong>Resume</strong></span>
+          </div>
+          <div class="icon-row">
+            <i class="fas fa-envelope"></i><span><strong>Contact</strong></span>
+          </div>
+
+          <div class="icon-row" onclick="toggleMenu()">
+            <i class="fas fa-cog"></i><span><strong>More Pages ▾</strong></span>
+          </div>
+        </div>
+
+        <div id="more-options" class="hidden">
+          <ul>
+            <li>
+              <a href="#"><strong class="more-pages">Project Page</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong class="more-pages">Blog Home 1</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong class="more-pages">Blog Home 2</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong class="more-pages">Blog Post</strong></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hire Me Button -->
+        <div class="hire-button">
+          <button class="button-style">
+            <i class="fas fa-paper-plane eroplano"></i>
+            <span><strong>Hire me</strong></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-body">
+        <div class="img-align">
+          <div class="title-div">
+            <h2 id="Main-Name">Carlitos Manluco</h2>
+            <span class="se-title">Computer Science Student</span>
+            <p class="bio">
+              I'm a 1st year Computer Science student hoping to become a
+              Software Engineer one day! I write about software development on
+              <a class="bio-links" href="#">my blog</a>. Want to know how I may
+              help your project? Check out my
+              <a class="bio-links" href="#">project portfolio</a> and
+              <a class="bio-links" href="#">online resume</a>.
+            </p>
+            <div class="view-button">
+              <button class="button-style2">
+                <i class="fas fa-arrow-circle-right arrow"></i>
+                <span><strong>View Portfolio</strong></span>
+              </button>
+              <button class="button-style3">
+                <i class="fas fa-file-alt document"></i>
+                <span><strong>View Resume</strong></span>
+              </button>
+            </div>
+          </div>
+          <img
+            class="profile-pic"
+            src="https://i.pinimg.com/736x/ff/62/ad/ff62ada727072938188c00d1fccc13ef.jpg"
+            alt="display pic"
+          />
+        </div>
+
+        <div class="wid">
+          <div class="bar"></div>
+          <h2>What I Do</h2>
+        </div>
+
+        <div class="what-i-do">
+          <p class="experience">
+            I'm an aspiring Software Engineer currently learning and creating
+            responsive websites with HTML, CSS, and JavaScript. Below is a quick
+            overview of my main technical skill sets and technologies I use.
+            Want to find out more about my experience? Check out my
+            <a class="bio-links" href="#">online resume</a> and
+            <a class="bio-links" href="#">project portfolio</a>.
+          </p>
+
+          <section class="wid-sec">
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+
+            <div class="wid-info">
+              <i class="fab fa-js-square"></i>
+              <h2>Web Development</h2>
+              <p>
+                I’m learning web development and building responsive websites
+                using HTML, CSS, and JavaScript. I focus on clean design,
+                layout, and interactivity.
+              </p>
+            </div>
+            <div class="wid-button">
+              <button class="button-style2">
+                <i class="fas fa-arrow-circle-right arrow"></i>
+                <span><strong>View Portfolio</strong></span>
+              </button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="my-portfolio.js"></script>
+  </body>
+</html>
